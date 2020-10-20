@@ -1,0 +1,4 @@
+E:\计算机网络\实验二\发布给学生的RDT代码\Windows VS2017\StopWait\Debug\StopWait.exe
+E:\计算机网络\实验二\发布给学生的RDT代码\Windows VS2017\StopWait\Debug\StopWait.pdb
+E:\network_lab\LAB2\Windows VS2017\StopWait\Debug\StopWait.exe
+E:\network_lab\LAB2\Windows VS2017\StopWait\Debug\StopWait.pdb

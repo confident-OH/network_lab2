@@ -18,13 +18,31 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="StopWait.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="StopWaitRdtReceiver.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="StopWaitRdtSender.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GBNsender.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GBNreceiver.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRsenders.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRreceiver.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPsender.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPreceiver.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -60,6 +78,24 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Tool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GBNsender.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GBNreceiver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SRsenders.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SRreceiver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPsender.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPreceiver.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

@@ -18,13 +18,13 @@
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
     <WholeProgramOptimization>true</WholeProgramOptimization>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
@@ -38,7 +38,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
-    <_ProjectFileVersion>15.0.27924.0</_ProjectFileVersion>
+    <_ProjectFileVersion>16.0.30523.133</_ProjectFileVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
@@ -87,35 +87,41 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="GBNreceiver.cpp" />
+    <ClCompile Include="GBNsender.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="SRreceiver.cpp" />
+    <ClCompile Include="SRsenders.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="StopWait.cpp" />
     <ClCompile Include="StopWaitRdtReceiver.cpp" />
     <ClCompile Include="StopWaitRdtSender.cpp" />
+    <ClCompile Include="TCPreceiver.cpp" />
+    <ClCompile Include="TCPsender.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataStructure.h" />
+    <ClInclude Include="GBNreceiver.h" />
+    <ClInclude Include="GBNsender.h" />
     <ClInclude Include="Global.h" />
     <ClInclude Include="NetworkService.h" />
     <ClInclude Include="RandomEventEnum.h" />
     <ClInclude Include="RdtReceiver.h" />
     <ClInclude Include="RdtSender.h" />
+    <ClInclude Include="SRreceiver.h" />
+    <ClInclude Include="SRsenders.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="StopWaitRdtReceiver.h" />
     <ClInclude Include="StopWaitRdtSender.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="TCPreceiver.h" />
+    <ClInclude Include="TCPsender.h" />
     <ClInclude Include="Tool.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\netsimlib\netsimlib.vcxproj">
-      <Project>{8099586e-9e47-43bf-9cae-6f4b35d29e38}</Project>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
