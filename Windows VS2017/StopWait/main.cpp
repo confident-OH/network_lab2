@@ -9,7 +9,7 @@
 #include "GBNreceiver.h"
 #include "SRreceiver.h"
 #include "SRsenders.h"
-
+#include "TCPs.h"
 
 int main(int argc, char* argv[])
 {
@@ -19,6 +19,9 @@ int main(int argc, char* argv[])
 	RdtSender* gs = new SRsenders();
 	RdtReceiver* gr = new SRreceiver();
 	
+	//RdtSender* gs = new TCPsenders();
+	//RdtReceiver* gr = new GBNreceiver();
+
 	//	pns->setRunMode(0);  //VERBOS模式
 	pns->setRunMode(1);  //安静模式
 	pns->init();

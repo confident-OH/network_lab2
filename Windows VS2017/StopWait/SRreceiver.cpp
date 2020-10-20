@@ -31,7 +31,7 @@ void SRreceiver::receive(const Packet& packet)
 	int rvsequ = packet.seqnum;
 	//如果校验和正确，同时收到报文的序号等于接收方期待收到的报文序号一致
 	if (checkSum != packet.checksum) {
-		pUtils->printPacket("[Debug]接收方没有正确收到发送方的报文,数据校验错误", packet);
+		pUtils->printPacket("[Debug]数据校验错误-接收方没有正确接收报文", packet);
 	}
 	else {
 		if (this->expectebase == rvsequ) {
@@ -42,16 +42,16 @@ void SRreceiver::receive(const Packet& packet)
 
 			this->lastAckPkt.acknum = packet.seqnum; //确认序号等于收到的报文序号
 			this->lastAckPkt.checksum = pUtils->calculateCheckSum(this->lastAckPkt);
-			pUtils->printPacket("接收方发送确认报文", this->lastAckPkt);
+			//pUtils->printPacket("接收方发送确认报文", this->lastAckPkt);
 			pns->sendToNetworkLayer(SENDER, this->lastAckPkt);	//调用模拟网络环境的sendToNetworkLayer，通过网络层发送确认报文到对方	
 
 			while (this->isrvc[this->expectebase] == true) {
-				std::cout << "开始上传" << endl;
+				//std::cout << "开始上传" << endl;
 				pns->delivertoAppLayer(RECEIVER, this->massn[expectebase % SEQUN]);
 				this->isrvc[this->expectebase % SEQUN] = false;
 				this->expectebase = (this->expectebase + 1) % SEQUN;
 			}
-
+			cout << "\n[RECEIVER]确认号ack：" << lastAckPkt.acknum << "\n\n";
 		}
 		else {
 			if ((rvsequ + SEQUN - expectebase)%SEQUN < WIDEN) {
@@ -59,11 +59,12 @@ void SRreceiver::receive(const Packet& packet)
 				this->lastAckPkt.acknum = rvsequ; //确认序号等于收到的报文序号
 				this->lastAckPkt.checksum = pUtils->calculateCheckSum(lastAckPkt);
 				isrvc[rvsequ] = true;
-				pUtils->printPacket("失序的报文，让发送方缓存", this->lastAckPkt);
+				pUtils->printPacket("[Debug]失序的报文，让发送方缓存", this->lastAckPkt);
 				pns->sendToNetworkLayer(SENDER, this->lastAckPkt);	               //发送报文让发送机缓存
+				cout << "\n[RECEIVER]确认号ack：" << lastAckPkt.acknum << "\n\n";
 			}
 			else {
-				pUtils->printPacket("[Debug]报文未在窗口中", packet);
+				pUtils->printPacket("[ERROR]报文未在窗口中", packet);
 				this->lastAckPkt.acknum = rvsequ;                                  //确认序号等于收到的报文序号
 				this->lastAckPkt.checksum = pUtils->calculateCheckSum(lastAckPkt);
 				pns->sendToNetworkLayer(SENDER, this->lastAckPkt);	               //无论怎样，都重传            

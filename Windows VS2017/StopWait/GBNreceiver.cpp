@@ -19,16 +19,16 @@ GBNreceiver::~GBNreceiver()
 
 void GBNreceiver::receive(const Packet& packet)
 {
-	if (packet.checksum != pUtils->calculateCheckSum(packet))
-	{//数据包损坏，不作出应答
-		pUtils->printPacket("[Debug]接收方没有正确收到发送方的报文,数据校验错误", packet);
-		pns->sendToNetworkLayer(SENDER, lastAckPkt);//发送上次的
+	if (packet.checksum != pUtils->calculateCheckSum(packet))    //数据包损坏
+	{
+		pUtils->printPacket("[Debug]数据校验错误-接收方没有正确接收报文", packet);
+		pns->sendToNetworkLayer(SENDER, lastAckPkt);             //发送上次的
 		return;
 	}
-	if (packet.seqnum != this->expectedseq)
-	{//不是想要的数据包，不作出应答
+	if (packet.seqnum != this->expectedseq)                      //不是想要的数据包，不作出应答
+	{
 		pUtils->printPacket("[Debug]不是期望的数据分组", packet);
-		pns->sendToNetworkLayer(SENDER, lastAckPkt);//发送上次的
+		pns->sendToNetworkLayer(SENDER, lastAckPkt);             //发送以前的数据包
 		return;
 	}
 	else
@@ -36,13 +36,12 @@ void GBNreceiver::receive(const Packet& packet)
 		Message msg;
 		memcpy(msg.data, packet.payload, sizeof(packet.payload));
 		pns->delivertoAppLayer(RECEIVER, msg);
-		pUtils->printPacket("\n接收方正确并发送到上层APP：", packet);
-		//std::cout << "递交给应用数据分组：" << packet.seqnum << "\n\n";
-		lastAckPkt.acknum = packet.seqnum; //确认序号等于收到的报文序号
+		//pUtils->printPacket("\n正确接受并发送到应用层：", packet);
+		lastAckPkt.acknum = packet.seqnum;                       //确认序号等于收到的报文序号
 		lastAckPkt.checksum = pUtils->calculateCheckSum(lastAckPkt);
-		pUtils->printPacket("接收方发送确认报文", lastAckPkt);
+		//pUtils->printPacket("接收方发送确认报文", lastAckPkt);
 		pns->sendToNetworkLayer(SENDER, lastAckPkt);	//调用模拟网络环境的sendToNetworkLayer，通过网络层发送确认报文到对方
 		this->expectedseq = (this->expectedseq + 1) % SEQUN;//别忘了取模
 	}
-	std::cout << "[RECEIVER]确认号ack：" << lastAckPkt.acknum << "\n\n";
+	cout << "\n[RECEIVER]确认号ack：" << lastAckPkt.acknum << "\n\n";
 }

@@ -27,6 +27,8 @@ bool GBNsenders::send(const Message& message) {
 	else
 	{
 		//在窗口中设置ACKS
+		std::cout << "\n[SENDER]发送前窗口：";
+		printSlideWindow();
 		this->waitingState = true;
 		this->packetWaitingAck[nextseqnum].acknum = -1; //忽略该字段
 		this->packetWaitingAck[nextseqnum].seqnum = this->nextseqnum;
@@ -38,6 +40,9 @@ bool GBNsenders::send(const Message& message) {
 		if(base == nextseqnum)
 			pns->startTimer(SENDER, Configuration::TIME_OUT, this->packetWaitingAck[nextseqnum].seqnum);			//启动发送方定时器
 		this->nextseqnum = (this->nextseqnum + 1) % SEQUN;
+		std::cout << "[SENDER]发送后窗口：";
+		printSlideWindow();
+		cout << endl;
 		return true;
     }
 }
@@ -46,7 +51,7 @@ void GBNsenders::receive(const Packet& ackPkt) {
 	int checkSum = pUtils->calculateCheckSum(ackPkt);
 	if (checkSum != ackPkt.checksum)
 	{
-		pUtils->printPacket("\n[Debug]接收的ack损坏，校验和不相等", ackPkt);
+		pUtils->printPacket("\n[Debug]数据校验错误-接收的ack损坏", ackPkt);
 	}
 	else
 	{
@@ -60,7 +65,7 @@ void GBNsenders::receive(const Packet& ackPkt) {
 			pns->stopTimer(SENDER, 0);
 			pns->startTimer(SENDER, Configuration::TIME_OUT, 0);
 		}
-		std::cout << "\n[SENDER]收到ack，滑动窗口移动：";
+		std::cout << "\n[SENDER]收到ack:" << ackPkt.acknum << "，移动滑动窗口：";
 		printSlideWindow();
 		std::cout << endl;
 	}
@@ -69,7 +74,7 @@ void GBNsenders::receive(const Packet& ackPkt) {
 void GBNsenders::timeoutHandler(int seqNum)
 {
 	int i;
-	std::cout << "\n出现超时" << endl;
+	std::cout << "\n[ERROR]出现超时" << endl;
 	if (this->nextseqnum == this->base)
 	{
 		//超时特例，不做处理
@@ -92,9 +97,9 @@ void GBNsenders::printSlideWindow()
 	{
 		if (i == this->base)
 			std::cout << "[";
-		std::cout << i;
 		if (i == this->nextseqnum)
 			std::cout << "|";
+		std::cout << i;
 		if (i == (base + WIDEN - 1) % SEQUN)
 			std::cout << "]";
 		std::cout << " ";

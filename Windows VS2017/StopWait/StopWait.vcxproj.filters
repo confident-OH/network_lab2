@@ -39,10 +39,10 @@
     <ClCompile Include="SRreceiver.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="TCPsender.cpp">
+    <ClCompile Include="TCPreceiver.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="TCPreceiver.cpp">
+    <ClCompile Include="TCPs.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -92,10 +92,10 @@
     <ClInclude Include="SRreceiver.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="TCPsender.h">
+    <ClInclude Include="TCPreceiver.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="TCPreceiver.h">
+    <ClInclude Include="TCPs.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

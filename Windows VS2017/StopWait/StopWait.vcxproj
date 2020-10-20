@@ -99,7 +99,7 @@
     <ClCompile Include="StopWaitRdtReceiver.cpp" />
     <ClCompile Include="StopWaitRdtSender.cpp" />
     <ClCompile Include="TCPreceiver.cpp" />
-    <ClCompile Include="TCPsender.cpp" />
+    <ClCompile Include="TCPs.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataStructure.h" />
@@ -117,7 +117,7 @@
     <ClInclude Include="StopWaitRdtSender.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="TCPreceiver.h" />
-    <ClInclude Include="TCPsender.h" />
+    <ClInclude Include="TCPs.h" />
     <ClInclude Include="Tool.h" />
   </ItemGroup>
   <ItemGroup>
