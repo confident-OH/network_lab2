@@ -2,6 +2,7 @@
 #include "RdtSender.h"
 #define SEQUN 0x8
 #define WIDEN 4
+extern FILE* fp;
 
 class TCPsenders
     :public RdtSender

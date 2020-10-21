@@ -22,12 +22,14 @@ void GBNreceiver::receive(const Packet& packet)
 	if (packet.checksum != pUtils->calculateCheckSum(packet))    //数据包损坏
 	{
 		pUtils->printPacket("[Debug]数据校验错误-接收方没有正确接收报文", packet);
+		fprintf(fp, "[Debug]数据校验错误-接收方没有正确接收报文%s", packet.payload);
 		pns->sendToNetworkLayer(SENDER, lastAckPkt);             //发送上次的
 		return;
 	}
 	if (packet.seqnum != this->expectedseq)                      //不是想要的数据包，不作出应答
 	{
 		pUtils->printPacket("[Debug]不是期望的数据分组", packet);
+		fprintf(fp, "[Debug]不是期望的数据分组%s", packet.payload);
 		pns->sendToNetworkLayer(SENDER, lastAckPkt);             //发送以前的数据包
 		return;
 	}
@@ -44,4 +46,5 @@ void GBNreceiver::receive(const Packet& packet)
 		this->expectedseq = (this->expectedseq + 1) % SEQUN;//别忘了取模
 	}
 	cout << "\n[RECEIVER]确认号ack：" << lastAckPkt.acknum << "\n\n";
+	fprintf(fp, "\n[RECEIVER]确认号ack：%d\n\n", lastAckPkt.acknum);
 }

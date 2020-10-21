@@ -3,6 +3,8 @@
 #define SEQUN 8
 #define WIDEN 4
 
+extern FILE* fp;
+
 class GBNreceiver :public RdtReceiver {
 private:
     int expectedseq;

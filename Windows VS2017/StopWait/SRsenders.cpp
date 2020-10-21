@@ -34,6 +34,7 @@ bool SRsenders::send(const Message& message) {
 	else{
 		//在窗口中设置ACKS
 		std::cout << "\n[SENDER]发送前窗口：";
+		fprintf(fp, "\n[SENDER]发送前窗口：");
 		printSlideWindow();
 		this->packetWaitingAck[nextseqnum].acknum = -1; //忽略该字段
 		this->packetWaitingAck[nextseqnum].seqnum = this->nextseqnum;
@@ -41,12 +42,15 @@ bool SRsenders::send(const Message& message) {
 		memcpy(this->packetWaitingAck[nextseqnum].payload, message.data, sizeof(message.data));
 		this->packetWaitingAck[nextseqnum].checksum = pUtils->calculateCheckSum(this->packetWaitingAck[nextseqnum]);
 		pUtils->printPacket("发送方发送报文", this->packetWaitingAck[nextseqnum]);
+		fprintf(fp, "发送方发送报文%s", this->packetWaitingAck[nextseqnum].payload);
 		pns->startTimer(SENDER, Configuration::TIME_OUT, this->nextseqnum);			//启动发送方定时器
 		pns->sendToNetworkLayer(RECEIVER, this->packetWaitingAck[nextseqnum]);	//调用模拟网络环境的sendToNetworkLayer，通过网络层发送到对方
 		this->nextseqnum = (this->nextseqnum + 1) % SEQUN;
 		std::cout << "[SENDER]发送后窗口：";
+		fprintf(fp, "[SENDER]发送后窗口：");
 		printSlideWindow();
 		cout << endl;
+		fprintf(fp, "\n");
 		return true;
 	}
 }
@@ -63,6 +67,7 @@ void SRsenders::receive(const Packet& ackPkt) {
 		if (num == this->base) {  
 			//pUtils->printPacket("发送方正确收到确认", ackPkt);       
 			cout << "\n[SENDER]收到ack:" << ackPkt.acknum << "，移动滑动窗口：";   //准备改变滑动窗格
+			fprintf(fp, "\n[SENDER]收到ack:%d，移动滑动窗口：", ackPkt.acknum);
 			label[base] = true;
 			pns->stopTimer(SENDER, ackPkt.acknum);                      //关闭定时器
 			while (this->label[this->base]) {                             	
@@ -70,14 +75,17 @@ void SRsenders::receive(const Packet& ackPkt) {
 				this->base = (this->base + 1) % SEQUN;
 			}
 			cout << "\n[SENDER]收到ack，滑动窗口移动：";
+			fprintf(fp, "\n[SENDER]收到ack%d，滑动窗口移动：", ackPkt.acknum);
 			printSlideWindow();
 			cout << endl;
+			fprintf(fp, "\n");
 		}
 		else {
 			if ((SEQUN + num - this->base) % SEQUN < (SEQUN + this->nextseqnum - this->base) % SEQUN) {
 				pns->stopTimer(SENDER, ackPkt.acknum);	                                	//关闭定时器
 				label[num] = true;
 				cout << "\n[SENDER]收到ack:" << ackPkt.acknum << endl;
+				fprintf(fp, "\n[SENDER]收到ack:%d, 放入缓存", ackPkt.acknum);
 				pUtils->printPacket("发送方缓存正确收到确认", this->packetWaitingAck[ackPkt.acknum]);
 			}
 		}
@@ -98,14 +106,24 @@ void SRsenders::printSlideWindow()
 	int i;
 	for (i = 0; i < SEQUN; i++)
 	{
-		if (i == this->base)
+		if (i == this->base) {
 			std::cout << "[";
-		if (i == this->nextseqnum)
+			fprintf(fp, "[");
+		}
+
+		if (i == this->nextseqnum) {
 			std::cout << "|";
+			fprintf(fp, "|");
+		}
 		std::cout << i;
-		if (i == (base + WIDEN - 1) % SEQUN)
+		fprintf(fp, "%d", i);
+		if (i == (base + WIDEN - 1) % SEQUN) {
 			std::cout << "]";
+			fprintf(fp, "]");
+		}
+		fprintf(fp, " ");
 		std::cout << " ";
 	}
 	std::cout << std::endl;
+	fprintf(fp, "\n");
 }

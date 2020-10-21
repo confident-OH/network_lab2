@@ -2,6 +2,7 @@
 #define SEQUN 8
 #define WIDEN 4
 #include "RdtSender.h"
+extern FILE* fp;
 
 class GBNsenders 
 	:public RdtSender

@@ -11,16 +11,22 @@
 #include "SRsenders.h"
 #include "TCPs.h"
 
+FILE* fp;
+
 int main(int argc, char* argv[])
 {
+	
 	//RdtSender* gs = new GBNsenders();
 	//RdtReceiver* gr = new GBNreceiver();
+	//fp = fopen("GBNwindow.txt", "w");
 
-	RdtSender* gs = new SRsenders();
-	RdtReceiver* gr = new SRreceiver();
-	
-	//RdtSender* gs = new TCPsenders();
-	//RdtReceiver* gr = new GBNreceiver();
+	//RdtSender* gs = new SRsenders();
+	//RdtReceiver* gr = new SRreceiver();
+	//fp = fopen("SRwindow.txt", "w");
+
+	RdtSender* gs = new TCPsenders();
+	RdtReceiver* gr = new GBNreceiver();
+	fp = fopen("TCPwindow.txt", "w");
 
 	//	pns->setRunMode(0);  //VERBOS模式
 	pns->setRunMode(1);  //安静模式

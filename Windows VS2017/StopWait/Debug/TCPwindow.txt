@@ -1,0 +1,1116 @@
+
+[SENDER]╥╒кмг╟╢╟©зё╨[|0 1 2 3] 4 5 6 7 
+╥╒км╥╫╥╒км╠╗нд: AAAAAAAAAAAAAAAAAAAA
+[SENDER]╥╒км╨С╢╟©зё╨[0 |1 2 3] 4 5 6 7 
+
+[RECEIVER]х╥хо╨еackё╨0
+
+
+[SENDER]йу╣╫ack:0ё╛рф╤╞╩╛╤╞╢╟©зё╨0 [|1 2 3 4] 5 6 7 
+
+
+[SENDER]╥╒кмг╟╢╟©зё╨0 [|1 2 3 4] 5 6 7 
+╥╒км╥╫╥╒км╠╗нд: BBBBBBBBBBBBBBBBBBBB
+[SENDER]╥╒км╨С╢╟©зё╨0 [1 |2 3 4] 5 6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0 [1 |2 3 4] 5 6 7 
+╥╒км╥╫╥╒км╠╗нд: CCCCCCCCCCCCCCCCCCCC
+[SENDER]╥╒км╨С╢╟©зё╨0 [1 2 |3 4] 5 6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0 [1 2 |3 4] 5 6 7 
+╥╒км╥╫╥╒км╠╗нд: DDDDDDDDDDDDDDDDDDDD
+[SENDER]╥╒км╨С╢╟©зё╨0 [1 2 3 |4] 5 6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0 [1 2 3 |4] 5 6 7 
+╥╒км╥╫╥╒км╠╗нд: EEEEEEEEEEEEEEEEEEEE
+[SENDER]╥╒км╨С╢╟©зё╨0 [1 2 3 4] |5 6 7 
+
+[RECEIVER]х╥хо╨еackё╨1
+
+
+[RECEIVER]х╥хо╨еackё╨2
+
+
+[SENDER]йу╣╫ack:1ё╛рф╤╞╩╛╤╞╢╟©зё╨0 1 [2 3 4 |5] 6 7 
+
+[Debug]йЩ╬щпёяИ╢МнС-╫сйу╥╫ц╩спуЩх╥╫сйу╠╗ндEDDDDDDDDDDDDDDDDDDD
+ллллллллллл╗K)ллллллллР]
+[SENDER]йу╣╫ack:2ё╛рф╤╞╩╛╤╞╢╟©зё╨0 1 2 [3 4 |5 6] 7 
+
+[Debug]╡╩йгфзмШ╣дйЩ╬щ╥жвИEEEEEEEEEEEEEEEEEEEE
+лллллллллллХG)ллллллллР]
+[ERROR]йу╣╫а╛пЬхЩ╦ЖхъсЮackё╛©Лкыжь╢╚:DDDDDDDDDDDDDDDDDDDD
+
+[RECEIVER]х╥хо╨еackё╨3
+
+[Debug]╡╩йгфзмШ╣дйЩ╬щ╥жвИDDDDDDDDDDDDDDDDDDDD
+лллллллллллhE)ллллллллР]
+[SENDER]йу╣╫ack:3ё╛рф╤╞╩╛╤╞╢╟©зё╨0 1 2 3 [4 |5 6 7] 
+
+
+[RECEIVER]х╥хо╨еackё╨4
+
+
+[SENDER]йу╣╫ack:4ё╛рф╤╞╩╛╤╞╢╟©зё╨0] 1 2 3 4 [|5 6 7 
+
+
+[SENDER]╥╒кмг╟╢╟©зё╨0] 1 2 3 4 [|5 6 7 
+╥╒км╥╫╥╒км╠╗нд: FFFFFFFFFFFFFFFFFFFF
+[SENDER]╥╒км╨С╢╟©зё╨0] 1 2 3 4 [5 |6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0] 1 2 3 4 [5 |6 7 
+╥╒км╥╫╥╒км╠╗нд: GGGGGGGGGGGGGGGGGGGG
+[SENDER]╥╒км╨С╢╟©зё╨0] 1 2 3 4 [5 6 |7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0] 1 2 3 4 [5 6 |7 
+╥╒км╥╫╥╒км╠╗нд: HHHHHHHHHHHHHHHHHHHH
+[SENDER]╥╒км╨С╢╟©зё╨|0] 1 2 3 4 [5 6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨|0] 1 2 3 4 [5 6 7 
+╥╒км╥╫╥╒км╠╗нд: IIIIIIIIIIIIIIIIIIII
+[SENDER]╥╒км╨С╢╟©зё╨0] |1 2 3 4 [5 6 7 
+
+[RECEIVER]х╥хо╨еackё╨5
+
+
+[RECEIVER]х╥хо╨еackё╨6
+
+
+[RECEIVER]х╥хо╨еackё╨7
+
+
+[SENDER]йу╣╫ack:5ё╛рф╤╞╩╛╤╞╢╟©зё╨0 |1] 2 3 4 5 [6 7 
+
+
+[RECEIVER]х╥хо╨еackё╨0
+
+
+[SENDER]йу╣╫ack:6ё╛рф╤╞╩╛╤╞╢╟©зё╨0 |1 2] 3 4 5 6 [7 
+
+
+[SENDER]йу╣╫ack:7ё╛рф╤╞╩╛╤╞╢╟©зё╨[0 |1 2 3] 4 5 6 7 
+
+
+[SENDER]йу╣╫ack:0ё╛рф╤╞╩╛╤╞╢╟©зё╨0 [|1 2 3 4] 5 6 7 
+
+
+[SENDER]╥╒кмг╟╢╟©зё╨0 [|1 2 3 4] 5 6 7 
+╥╒км╥╫╥╒км╠╗нд: JJJJJJJJJJJJJJJJJJJJ
+[SENDER]╥╒км╨С╢╟©зё╨0 [1 |2 3 4] 5 6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0 [1 |2 3 4] 5 6 7 
+╥╒км╥╫╥╒км╠╗нд: KKKKKKKKKKKKKKKKKKKK
+[SENDER]╥╒км╨С╢╟©зё╨0 [1 2 |3 4] 5 6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0 [1 2 |3 4] 5 6 7 
+╥╒км╥╫╥╒км╠╗нд: LLLLLLLLLLLLLLLLLLLL
+[SENDER]╥╒км╨С╢╟©зё╨0 [1 2 3 |4] 5 6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0 [1 2 3 |4] 5 6 7 
+╥╒км╥╫╥╒км╠╗нд: MMMMMMMMMMMMMMMMMMMM
+[SENDER]╥╒км╨С╢╟©зё╨0 [1 2 3 4] |5 6 7 
+
+[RECEIVER]х╥хо╨еackё╨1
+
+
+[SENDER]йу╣╫ack:1ё╛рф╤╞╩╛╤╞╢╟©зё╨0 1 [2 3 4 |5] 6 7 
+
+
+[RECEIVER]х╥хо╨еackё╨2
+
+
+[SENDER]йу╣╫ack:2ё╛рф╤╞╩╛╤╞╢╟©зё╨0 1 2 [3 4 |5 6] 7 
+
+
+[RECEIVER]х╥хо╨еackё╨3
+
+
+[SENDER]йу╣╫ack:3ё╛рф╤╞╩╛╤╞╢╟©зё╨0 1 2 3 [4 |5 6 7] 
+
+
+[RECEIVER]х╥хо╨еackё╨4
+
+
+[SENDER]йу╣╫ack:4ё╛рф╤╞╩╛╤╞╢╟©зё╨0] 1 2 3 4 [|5 6 7 
+
+
+[SENDER]╥╒кмг╟╢╟©зё╨0] 1 2 3 4 [|5 6 7 
+╥╒км╥╫╥╒км╠╗нд: NNNNNNNNNNNNNNNNNNNN
+[SENDER]╥╒км╨С╢╟©зё╨0] 1 2 3 4 [5 |6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0] 1 2 3 4 [5 |6 7 
+╥╒км╥╫╥╒км╠╗нд: OOOOOOOOOOOOOOOOOOOO
+[SENDER]╥╒км╨С╢╟©зё╨0] 1 2 3 4 [5 6 |7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0] 1 2 3 4 [5 6 |7 
+╥╒км╥╫╥╒км╠╗нд: PPPPPPPPPPPPPPPPPPPP
+[SENDER]╥╒км╨С╢╟©зё╨|0] 1 2 3 4 [5 6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨|0] 1 2 3 4 [5 6 7 
+╥╒км╥╫╥╒км╠╗нд: QQQQQQQQQQQQQQQQQQQQ
+[SENDER]╥╒км╨С╢╟©зё╨0] |1 2 3 4 [5 6 7 
+[Debug]йЩ╬щпёяИ╢МнС-╫сйу╥╫ц╩спуЩх╥╫сйу╠╗ндPOOOOOOOOOOOOOOOOOOO
+лллллллллллxI)ллллллллР][Debug]╡╩йгфзмШ╣дйЩ╬щ╥жвИPPPPPPPPPPPPPPPPPPPP
+ллллллллллл╗K)ллллллллР]
+[ERROR]йу╣╫а╛пЬхЩ╦ЖхъсЮackё╛©Лкыжь╢╚:NNNNNNNNNNNNNNNNNNNN
+[Debug]╡╩йгфзмШ╣дйЩ╬щ╥жвИQQQQQQQQQQQQQQQQQQQQ
+лллллллллллXK)ллллллллР]
+[RECEIVER]х╥хо╨еackё╨5
+
+
+[SENDER]йу╣╫ack:5ё╛рф╤╞╩╛╤╞╢╟©зё╨0 |1] 2 3 4 5 [6 7 
+
+[Debug]╡╩йгфзмШ╣дйЩ╬щ╥жвИNNNNNNNNNNNNNNNNNNNN
+ллллллллллл╗F)ллллллллР]
+[RECEIVER]х╥хо╨еackё╨6
+
+
+[SENDER]йу╣╫ack:6ё╛рф╤╞╩╛╤╞╢╟©зё╨0 |1 2] 3 4 5 6 [7 
+
+
+[RECEIVER]х╥хо╨еackё╨7
+
+
+[SENDER]йу╣╫ack:7ё╛рф╤╞╩╛╤╞╢╟©зё╨[0 |1 2 3] 4 5 6 7 
+
+
+[RECEIVER]х╥хо╨еackё╨0
+
+
+[SENDER]йу╣╫ack:0ё╛рф╤╞╩╛╤╞╢╟©зё╨0 [|1 2 3 4] 5 6 7 
+
+
+[SENDER]╥╒кмг╟╢╟©зё╨0 [|1 2 3 4] 5 6 7 
+╥╒км╥╫╥╒км╠╗нд: RRRRRRRRRRRRRRRRRRRR
+[SENDER]╥╒км╨С╢╟©зё╨0 [1 |2 3 4] 5 6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0 [1 |2 3 4] 5 6 7 
+╥╒км╥╫╥╒км╠╗нд: SSSSSSSSSSSSSSSSSSSS
+[SENDER]╥╒км╨С╢╟©зё╨0 [1 2 |3 4] 5 6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0 [1 2 |3 4] 5 6 7 
+╥╒км╥╫╥╒км╠╗нд: TTTTTTTTTTTTTTTTTTTT
+[SENDER]╥╒км╨С╢╟©зё╨0 [1 2 3 |4] 5 6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0 [1 2 3 |4] 5 6 7 
+╥╒км╥╫╥╒км╠╗нд: UUUUUUUUUUUUUUUUUUUU
+[SENDER]╥╒км╨С╢╟©зё╨0 [1 2 3 4] |5 6 7 
+
+[RECEIVER]х╥хо╨еackё╨1
+
+
+[RECEIVER]х╥хо╨еackё╨2
+
+
+[RECEIVER]х╥хо╨еackё╨3
+
+
+[SENDER]йу╣╫ack:3ё╛рф╤╞╩╛╤╞╢╟©зё╨0 1 2 3 [4 |5 6 7] 
+
+
+[RECEIVER]х╥хо╨еackё╨4
+
+[Debug]╡╩йгфзмШ╣дйЩ╬щ╥жвИRRRRRRRRRRRRRRRRRRRR
+ллллллллллл╦E)ллллллллР]
+[SENDER]йу╣╫ack:4ё╛рф╤╞╩╛╤╞╢╟©зё╨0] 1 2 3 4 [|5 6 7 
+
+
+[SENDER]╥╒кмг╟╢╟©зё╨0] 1 2 3 4 [|5 6 7 
+╥╒км╥╫╥╒км╠╗нд: VVVVVVVVVVVVVVVVVVVV
+[SENDER]╥╒км╨С╢╟©зё╨0] 1 2 3 4 [5 |6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0] 1 2 3 4 [5 |6 7 
+╥╒км╥╫╥╒км╠╗нд: WWWWWWWWWWWWWWWWWWWW
+[SENDER]╥╒км╨С╢╟©зё╨0] 1 2 3 4 [5 6 |7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0] 1 2 3 4 [5 6 |7 
+╥╒км╥╫╥╒км╠╗нд: XXXXXXXXXXXXXXXXXXXX
+[SENDER]╥╒км╨С╢╟©зё╨|0] 1 2 3 4 [5 6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨|0] 1 2 3 4 [5 6 7 
+╥╒км╥╫╥╒км╠╗нд: YYYYYYYYYYYYYYYYYYYY
+[SENDER]╥╒км╨С╢╟©зё╨0] |1 2 3 4 [5 6 7 
+
+[RECEIVER]х╥хо╨еackё╨5
+
+[Debug]╡╩йгфзмШ╣дйЩ╬щ╥жвИYYYYYYYYYYYYYYYYYYYY
+лллллллллллHG)ллллллллР]
+[SENDER]йу╣╫ack:5ё╛рф╤╞╩╛╤╞╢╟©зё╨0 |1] 2 3 4 5 [6 7 
+
+[Debug]йЩ╬щпёяИ╢МнС-╫сйу╥╫ц╩спуЩх╥╫сйу╠╗ндWVVVVVVVVVVVVVVVVVVV
+ллллллллллл╦J)ллллллллР]
+[RECEIVER]х╥хо╨еackё╨6
+
+
+[SENDER]йу╣╫ack:6ё╛рф╤╞╩╛╤╞╢╟©зё╨0 |1 2] 3 4 5 6 [7 
+
+
+[RECEIVER]х╥хо╨еackё╨7
+
+
+[SENDER]йу╣╫ack:7ё╛рф╤╞╩╛╤╞╢╟©зё╨[0 |1 2 3] 4 5 6 7 
+
+[Debug]йЩ╬щпёяИ╢МнС-╫сйу╥╫ц╩спуЩх╥╫сйу╠╗ндYYYYYYYYYYYYYYYYYYYY
+лллллллллллXK)ллллллллР]
+[RECEIVER]х╥хо╨еackё╨0
+
+[Debug]╡╩йгфзмШ╣дйЩ╬щ╥жвИYYYYYYYYYYYYYYYYYYYY
+ллллллллллл≤G)ллллллллР]
+[SENDER]йу╣╫ack:0ё╛рф╤╞╩╛╤╞╢╟©зё╨0 [|1 2 3 4] 5 6 7 
+
+
+[SENDER]╥╒кмг╟╢╟©зё╨0 [|1 2 3 4] 5 6 7 
+╥╒км╥╫╥╒км╠╗нд: ZZZZZZZZZZZZZZZZZZZZ
+[SENDER]╥╒км╨С╢╟©зё╨0 [1 |2 3 4] 5 6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0 [1 |2 3 4] 5 6 7 
+╥╒км╥╫╥╒км╠╗нд: AAAAAAAAAAAAAAAAAAAA
+[SENDER]╥╒км╨С╢╟©зё╨0 [1 2 |3 4] 5 6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0 [1 2 |3 4] 5 6 7 
+╥╒км╥╫╥╒км╠╗нд: BBBBBBBBBBBBBBBBBBBB
+[SENDER]╥╒км╨С╢╟©зё╨0 [1 2 3 |4] 5 6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0 [1 2 3 |4] 5 6 7 
+╥╒км╥╫╥╒км╠╗нд: CCCCCCCCCCCCCCCCCCCC
+[SENDER]╥╒км╨С╢╟©зё╨0 [1 2 3 4] |5 6 7 
+
+[RECEIVER]х╥хо╨еackё╨1
+
+[Debug]╡╩йгфзмШ╣дйЩ╬щ╥жвИBBBBBBBBBBBBBBBBBBBB
+ллллллллллл≤G)ллллллллР]
+[SENDER]йу╣╫ack:1ё╛рф╤╞╩╛╤╞╢╟©зё╨0 1 [2 3 4 |5] 6 7 
+
+[Debug]╡╩йгфзмШ╣дйЩ╬щ╥жвИCCCCCCCCCCCCCCCCCCCC
+лллллллллллХG)ллллллллР]
+[RECEIVER]х╥хо╨еackё╨2
+
+
+[SENDER]йу╣╫ack:2ё╛рф╤╞╩╛╤╞╢╟©зё╨0 1 2 [3 4 |5 6] 7 
+
+
+[RECEIVER]х╥хо╨еackё╨3
+
+
+[SENDER]йу╣╫ack:3ё╛рф╤╞╩╛╤╞╢╟©зё╨0 1 2 3 [4 |5 6 7] 
+
+[Debug]йЩ╬щпёяИ╢МнС-╫сйу╥╫ц╩спуЩх╥╫сйу╠╗ндDCCCCCCCCCCCCCCCCCCC
+лллллллллллJ)ллллллллР][Debug]йЩ╬щпёяИ╢МнС-╫сйу╥╫ц╩спуЩх╥╫сйу╠╗ндCCCCCCCCCCCCCCCCCCCC
+лллллллллллЬF)ллллллллР]
+[RECEIVER]х╥хо╨еackё╨4
+
+
+[SENDER]йу╣╫ack:4ё╛рф╤╞╩╛╤╞╢╟©зё╨0] 1 2 3 4 [|5 6 7 
+
+
+[SENDER]╥╒кмг╟╢╟©зё╨0] 1 2 3 4 [|5 6 7 
+╥╒км╥╫╥╒км╠╗нд: DDDDDDDDDDDDDDDDDDDD
+[SENDER]╥╒км╨С╢╟©зё╨0] 1 2 3 4 [5 |6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0] 1 2 3 4 [5 |6 7 
+╥╒км╥╫╥╒км╠╗нд: EEEEEEEEEEEEEEEEEEEE
+[SENDER]╥╒км╨С╢╟©зё╨0] 1 2 3 4 [5 6 |7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0] 1 2 3 4 [5 6 |7 
+╥╒км╥╫╥╒км╠╗нд: FFFFFFFFFFFFFFFFFFFF
+[SENDER]╥╒км╨С╢╟©зё╨|0] 1 2 3 4 [5 6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨|0] 1 2 3 4 [5 6 7 
+╥╒км╥╫╥╒км╠╗нд: GGGGGGGGGGGGGGGGGGGG
+[SENDER]╥╒км╨С╢╟©зё╨0] |1 2 3 4 [5 6 7 
+
+[RECEIVER]х╥хо╨еackё╨5
+
+
+[RECEIVER]х╥хо╨еackё╨6
+
+
+[SENDER]йу╣╫ack:6ё╛рф╤╞╩╛╤╞╢╟©зё╨0 |1 2] 3 4 5 6 [7 
+
+
+[RECEIVER]х╥хо╨еackё╨7
+
+
+[RECEIVER]х╥хо╨еackё╨0
+
+
+[SENDER]йу╣╫ack:7ё╛рф╤╞╩╛╤╞╢╟©зё╨[0 |1 2 3] 4 5 6 7 
+
+[Debug]╡╩йгфзмШ╣дйЩ╬щ╥жвИDDDDDDDDDDDDDDDDDDDD
+ллллллллллл╦E)ллллллллР]
+[SENDER]йу╣╫ack:0ё╛рф╤╞╩╛╤╞╢╟©зё╨0 [|1 2 3 4] 5 6 7 
+
+
+[SENDER]╥╒кмг╟╢╟©зё╨0 [|1 2 3 4] 5 6 7 
+╥╒км╥╫╥╒км╠╗нд: HHHHHHHHHHHHHHHHHHHH
+[SENDER]╥╒км╨С╢╟©зё╨0 [1 |2 3 4] 5 6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0 [1 |2 3 4] 5 6 7 
+╥╒км╥╫╥╒км╠╗нд: IIIIIIIIIIIIIIIIIIII
+[SENDER]╥╒км╨С╢╟©зё╨0 [1 2 |3 4] 5 6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0 [1 2 |3 4] 5 6 7 
+╥╒км╥╫╥╒км╠╗нд: JJJJJJJJJJJJJJJJJJJJ
+[SENDER]╥╒км╨С╢╟©зё╨0 [1 2 3 |4] 5 6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0 [1 2 3 |4] 5 6 7 
+╥╒км╥╫╥╒км╠╗нд: KKKKKKKKKKKKKKKKKKKK
+[SENDER]╥╒км╨С╢╟©зё╨0 [1 2 3 4] |5 6 7 
+
+[RECEIVER]х╥хо╨еackё╨1
+
+
+[RECEIVER]х╥хо╨еackё╨2
+
+
+[SENDER]йу╣╫ack:2ё╛рф╤╞╩╛╤╞╢╟©зё╨0 1 2 [3 4 |5 6] 7 
+
+[Debug]йЩ╬щпёяИ╢МнС-╫сйу╥╫ц╩спуЩх╥╫сйу╠╗ндJJJJJJJJJJJJJJJJJJJJ
+лллллллллллXK)ллллллллР][Debug]╡╩йгфзмШ╣дйЩ╬щ╥жвИKKKKKKKKKKKKKKKKKKKK
+лллллллллллхI)ллллллллР]
+[RECEIVER]х╥хо╨еackё╨3
+
+
+[SENDER]йу╣╫ack:3ё╛рф╤╞╩╛╤╞╢╟©зё╨0 1 2 3 [4 |5 6 7] 
+
+
+[RECEIVER]х╥хо╨еackё╨4
+
+
+[SENDER]йу╣╫ack:4ё╛рф╤╞╩╛╤╞╢╟©зё╨0] 1 2 3 4 [|5 6 7 
+
+
+[SENDER]╥╒кмг╟╢╟©зё╨0] 1 2 3 4 [|5 6 7 
+╥╒км╥╫╥╒км╠╗нд: LLLLLLLLLLLLLLLLLLLL
+[SENDER]╥╒км╨С╢╟©зё╨0] 1 2 3 4 [5 |6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0] 1 2 3 4 [5 |6 7 
+╥╒км╥╫╥╒км╠╗нд: MMMMMMMMMMMMMMMMMMMM
+[SENDER]╥╒км╨С╢╟©зё╨0] 1 2 3 4 [5 6 |7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0] 1 2 3 4 [5 6 |7 
+╥╒км╥╫╥╒км╠╗нд: NNNNNNNNNNNNNNNNNNNN
+[SENDER]╥╒км╨С╢╟©зё╨|0] 1 2 3 4 [5 6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨|0] 1 2 3 4 [5 6 7 
+╥╒км╥╫╥╒км╠╗нд: OOOOOOOOOOOOOOOOOOOO
+[SENDER]╥╒км╨С╢╟©зё╨0] |1 2 3 4 [5 6 7 
+
+[RECEIVER]х╥хо╨еackё╨5
+
+
+[SENDER]йу╣╫ack:5ё╛рф╤╞╩╛╤╞╢╟©зё╨0 |1] 2 3 4 5 [6 7 
+
+[Debug]йЩ╬щпёяИ╢МнС-╫сйу╥╫ц╩спуЩх╥╫сйу╠╗ндMMMMMMMMMMMMMMMMMMMM
+ллллллллллл╦E)ллллллллР][Debug]╡╩йгфзмШ╣дйЩ╬щ╥жвИNNNNNNNNNNNNNNNNNNNN
+лллллллллллJ)ллллллллР][Debug]╡╩йгфзмШ╣дйЩ╬щ╥жвИOOOOOOOOOOOOOOOOOOOO
+лллллллллллhJ)ллллллллР]
+[ERROR]йу╣╫а╛пЬхЩ╦ЖхъсЮackё╛©Лкыжь╢╚:MMMMMMMMMMMMMMMMMMMM
+[Debug]╡╩йгфзмШ╣дйЩ╬щ╥жвИLLLLLLLLLLLLLLLLLLLL
+ллллллллллл╦J)ллллллллР]
+[RECEIVER]х╥хо╨еackё╨6
+
+
+[SENDER]йу╣╫ack:6ё╛рф╤╞╩╛╤╞╢╟©зё╨0 |1 2] 3 4 5 6 [7 
+
+[Debug]╡╩йгфзмШ╣дйЩ╬щ╥жвИMMMMMMMMMMMMMMMMMMMM
+лллллллллллХG)ллллллллР]
+[RECEIVER]х╥хо╨еackё╨7
+
+[Debug]╡╩йгфзмШ╣дйЩ╬щ╥жвИNNNNNNNNNNNNNNNNNNNN
+лллллллллллxI)ллллллллР][Debug]╡╩йгфзмШ╣дйЩ╬щ╥жвИNNNNNNNNNNNNNNNNNNNN
+ллллллллллл╦E)ллллллллР]
+[SENDER]йу╣╫ack:7ё╛рф╤╞╩╛╤╞╢╟©зё╨[0 |1 2 3] 4 5 6 7 
+
+
+[RECEIVER]х╥хо╨еackё╨0
+
+
+[SENDER]йу╣╫ack:0ё╛рф╤╞╩╛╤╞╢╟©зё╨0 [|1 2 3 4] 5 6 7 
+
+
+[SENDER]╥╒кмг╟╢╟©зё╨0 [|1 2 3 4] 5 6 7 
+╥╒км╥╫╥╒км╠╗нд: PPPPPPPPPPPPPPPPPPPP
+[SENDER]╥╒км╨С╢╟©зё╨0 [1 |2 3 4] 5 6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0 [1 |2 3 4] 5 6 7 
+╥╒км╥╫╥╒км╠╗нд: QQQQQQQQQQQQQQQQQQQQ
+[SENDER]╥╒км╨С╢╟©зё╨0 [1 2 |3 4] 5 6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0 [1 2 |3 4] 5 6 7 
+╥╒км╥╫╥╒км╠╗нд: RRRRRRRRRRRRRRRRRRRR
+[SENDER]╥╒км╨С╢╟©зё╨0 [1 2 3 |4] 5 6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0 [1 2 3 |4] 5 6 7 
+╥╒км╥╫╥╒км╠╗нд: SSSSSSSSSSSSSSSSSSSS
+[SENDER]╥╒км╨С╢╟©зё╨0 [1 2 3 4] |5 6 7 
+
+[RECEIVER]х╥хо╨еackё╨1
+
+
+[RECEIVER]х╥хо╨еackё╨2
+
+
+[SENDER]йу╣╫ack:1ё╛рф╤╞╩╛╤╞╢╟©зё╨0 1 [2 3 4 |5] 6 7 
+
+
+[RECEIVER]х╥хо╨еackё╨3
+
+
+[RECEIVER]х╥хо╨еackё╨4
+
+
+[SENDER]йу╣╫ack:2ё╛рф╤╞╩╛╤╞╢╟©зё╨0 1 2 [3 4 |5 6] 7 
+
+
+[SENDER]йу╣╫ack:3ё╛рф╤╞╩╛╤╞╢╟©зё╨0 1 2 3 [4 |5 6 7] 
+
+
+[SENDER]йу╣╫ack:4ё╛рф╤╞╩╛╤╞╢╟©зё╨0] 1 2 3 4 [|5 6 7 
+
+
+[SENDER]╥╒кмг╟╢╟©зё╨0] 1 2 3 4 [|5 6 7 
+╥╒км╥╫╥╒км╠╗нд: TTTTTTTTTTTTTTTTTTTT
+[SENDER]╥╒км╨С╢╟©зё╨0] 1 2 3 4 [5 |6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0] 1 2 3 4 [5 |6 7 
+╥╒км╥╫╥╒км╠╗нд: UUUUUUUUUUUUUUUUUUUU
+[SENDER]╥╒км╨С╢╟©зё╨0] 1 2 3 4 [5 6 |7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0] 1 2 3 4 [5 6 |7 
+╥╒км╥╫╥╒км╠╗нд: VVVVVVVVVVVVVVVVVVVV
+[SENDER]╥╒км╨С╢╟©зё╨|0] 1 2 3 4 [5 6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨|0] 1 2 3 4 [5 6 7 
+╥╒км╥╫╥╒км╠╗нд: WWWWWWWWWWWWWWWWWWWW
+[SENDER]╥╒км╨С╢╟©зё╨0] |1 2 3 4 [5 6 7 
+
+[RECEIVER]х╥хо╨еackё╨5
+
+
+[RECEIVER]х╥хо╨еackё╨6
+
+
+[RECEIVER]х╥хо╨еackё╨7
+
+
+[SENDER]йу╣╫ack:5ё╛рф╤╞╩╛╤╞╢╟©зё╨0 |1] 2 3 4 5 [6 7 
+
+
+[RECEIVER]х╥хо╨еackё╨0
+
+
+[SENDER]йу╣╫ack:0ё╛рф╤╞╩╛╤╞╢╟©зё╨0 [|1 2 3 4] 5 6 7 
+
+
+[SENDER]╥╒кмг╟╢╟©зё╨0 [|1 2 3 4] 5 6 7 
+╥╒км╥╫╥╒км╠╗нд: XXXXXXXXXXXXXXXXXXXX
+[SENDER]╥╒км╨С╢╟©зё╨0 [1 |2 3 4] 5 6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0 [1 |2 3 4] 5 6 7 
+╥╒км╥╫╥╒км╠╗нд: YYYYYYYYYYYYYYYYYYYY
+[SENDER]╥╒км╨С╢╟©зё╨0 [1 2 |3 4] 5 6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0 [1 2 |3 4] 5 6 7 
+╥╒км╥╫╥╒км╠╗нд: ZZZZZZZZZZZZZZZZZZZZ
+[SENDER]╥╒км╨С╢╟©зё╨0 [1 2 3 |4] 5 6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0 [1 2 3 |4] 5 6 7 
+╥╒км╥╫╥╒км╠╗нд: AAAAAAAAAAAAAAAAAAAA
+[SENDER]╥╒км╨С╢╟©зё╨0 [1 2 3 4] |5 6 7 
+
+[RECEIVER]х╥хо╨еackё╨1
+
+
+[SENDER]йу╣╫ack:1ё╛рф╤╞╩╛╤╞╢╟©зё╨0 1 [2 3 4 |5] 6 7 
+
+
+[RECEIVER]х╥хо╨еackё╨2
+
+
+[RECEIVER]х╥хо╨еackё╨3
+
+
+[SENDER]йу╣╫ack:3ё╛рф╤╞╩╛╤╞╢╟©зё╨0 1 2 3 [4 |5 6 7] 
+
+[Debug]йЩ╬щпёяИ╢МнС-╫сйу╥╫ц╩спуЩх╥╫сйу╠╗ндBAAAAAAAAAAAAAAAAAAA
+лллллллллллЬF)ллллллллР][Debug]╡╩йгфзмШ╣дйЩ╬щ╥жвИYYYYYYYYYYYYYYYYYYYY
+лллллллллллJ)ллллллллР]
+[ERROR]йу╣╫а╛пЬхЩ╦ЖхъсЮackё╛©Лкыжь╢╚:AAAAAAAAAAAAAAAAAAAA
+
+[RECEIVER]х╥хо╨еackё╨4
+
+
+[SENDER]йу╣╫ack:4ё╛рф╤╞╩╛╤╞╢╟©зё╨0] 1 2 3 4 [|5 6 7 
+
+[Debug]╡╩йгфзмШ╣дйЩ╬щ╥жвИAAAAAAAAAAAAAAAAAAAA
+лллллллллллхD)ллллллллР]
+[SENDER]╥╒кмг╟╢╟©зё╨0] 1 2 3 4 [|5 6 7 
+╥╒км╥╫╥╒км╠╗нд: BBBBBBBBBBBBBBBBBBBB
+[SENDER]╥╒км╨С╢╟©зё╨0] 1 2 3 4 [5 |6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0] 1 2 3 4 [5 |6 7 
+╥╒км╥╫╥╒км╠╗нд: CCCCCCCCCCCCCCCCCCCC
+[SENDER]╥╒км╨С╢╟©зё╨0] 1 2 3 4 [5 6 |7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0] 1 2 3 4 [5 6 |7 
+╥╒км╥╫╥╒км╠╗нд: DDDDDDDDDDDDDDDDDDDD
+[SENDER]╥╒км╨С╢╟©зё╨|0] 1 2 3 4 [5 6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨|0] 1 2 3 4 [5 6 7 
+╥╒км╥╫╥╒км╠╗нд: EEEEEEEEEEEEEEEEEEEE
+[SENDER]╥╒км╨С╢╟©зё╨0] |1 2 3 4 [5 6 7 
+
+[RECEIVER]х╥хо╨еackё╨5
+
+
+[SENDER]йу╣╫ack:5ё╛рф╤╞╩╛╤╞╢╟©зё╨0 |1] 2 3 4 5 [6 7 
+
+
+[RECEIVER]х╥хо╨еackё╨6
+
+
+[RECEIVER]х╥хо╨еackё╨7
+
+
+[SENDER]йу╣╫ack:6ё╛рф╤╞╩╛╤╞╢╟©зё╨0 |1 2] 3 4 5 6 [7 
+
+
+[RECEIVER]х╥хо╨еackё╨0
+
+
+[SENDER]йу╣╫ack:0ё╛рф╤╞╩╛╤╞╢╟©зё╨0 [|1 2 3 4] 5 6 7 
+
+
+[SENDER]╥╒кмг╟╢╟©зё╨0 [|1 2 3 4] 5 6 7 
+╥╒км╥╫╥╒км╠╗нд: FFFFFFFFFFFFFFFFFFFF
+[SENDER]╥╒км╨С╢╟©зё╨0 [1 |2 3 4] 5 6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0 [1 |2 3 4] 5 6 7 
+╥╒км╥╫╥╒км╠╗нд: GGGGGGGGGGGGGGGGGGGG
+[SENDER]╥╒км╨С╢╟©зё╨0 [1 2 |3 4] 5 6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0 [1 2 |3 4] 5 6 7 
+╥╒км╥╫╥╒км╠╗нд: HHHHHHHHHHHHHHHHHHHH
+[SENDER]╥╒км╨С╢╟©зё╨0 [1 2 3 |4] 5 6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0 [1 2 3 |4] 5 6 7 
+╥╒км╥╫╥╒км╠╗нд: IIIIIIIIIIIIIIIIIIII
+[SENDER]╥╒км╨С╢╟©зё╨0 [1 2 3 4] |5 6 7 
+[Debug]йЩ╬щпёяИ╢МнС-╫сйу╥╫ц╩спуЩх╥╫сйу╠╗ндGFFFFFFFFFFFFFFFFFFF
+ллллллллллл╦E)ллллллллР][Debug]╡╩йгфзмШ╣дйЩ╬щ╥жвИGGGGGGGGGGGGGGGGGGGG
+лллллллллллxI)ллллллллР][Debug]╡╩йгфзмШ╣дйЩ╬щ╥жвИHHHHHHHHHHHHHHHHHHHH
+лллллллллллхD)ллллллллР]
+[ERROR]йу╣╫а╛пЬхЩ╦ЖхъсЮackё╛©Лкыжь╢╚:FFFFFFFFFFFFFFFFFFFF
+
+[RECEIVER]х╥хо╨еackё╨1
+
+
+[SENDER]йу╣╫ack:1ё╛рф╤╞╩╛╤╞╢╟©зё╨0 1 [2 3 4 |5] 6 7 
+
+
+[RECEIVER]х╥хо╨еackё╨2
+
+
+[SENDER]йу╣╫ack:2ё╛рф╤╞╩╛╤╞╢╟©зё╨0 1 2 [3 4 |5 6] 7 
+
+
+[RECEIVER]х╥хо╨еackё╨3
+
+
+[SENDER]йу╣╫ack:3ё╛рф╤╞╩╛╤╞╢╟©зё╨0 1 2 3 [4 |5 6 7] 
+
+
+[RECEIVER]х╥хо╨еackё╨4
+
+
+[SENDER]йу╣╫ack:4ё╛рф╤╞╩╛╤╞╢╟©зё╨0] 1 2 3 4 [|5 6 7 
+
+
+[SENDER]╥╒кмг╟╢╟©зё╨0] 1 2 3 4 [|5 6 7 
+╥╒км╥╫╥╒км╠╗нд: JJJJJJJJJJJJJJJJJJJJ
+[SENDER]╥╒км╨С╢╟©зё╨0] 1 2 3 4 [5 |6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0] 1 2 3 4 [5 |6 7 
+╥╒км╥╫╥╒км╠╗нд: KKKKKKKKKKKKKKKKKKKK
+[SENDER]╥╒км╨С╢╟©зё╨0] 1 2 3 4 [5 6 |7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0] 1 2 3 4 [5 6 |7 
+╥╒км╥╫╥╒км╠╗нд: LLLLLLLLLLLLLLLLLLLL
+[SENDER]╥╒км╨С╢╟©зё╨|0] 1 2 3 4 [5 6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨|0] 1 2 3 4 [5 6 7 
+╥╒км╥╫╥╒км╠╗нд: MMMMMMMMMMMMMMMMMMMM
+[SENDER]╥╒км╨С╢╟©зё╨0] |1 2 3 4 [5 6 7 
+
+[RECEIVER]х╥хо╨еackё╨5
+
+
+[SENDER]йу╣╫ack:5ё╛рф╤╞╩╛╤╞╢╟©зё╨0 |1] 2 3 4 5 [6 7 
+
+
+[RECEIVER]х╥хо╨еackё╨6
+
+
+[RECEIVER]х╥хо╨еackё╨7
+
+
+[RECEIVER]х╥хо╨еackё╨0
+
+[Debug]╡╩йгфзмШ╣дйЩ╬щ╥жвИKKKKKKKKKKKKKKKKKKKK
+лллллллллллXF)ллллллллР]
+[SENDER]йу╣╫ack:7ё╛рф╤╞╩╛╤╞╢╟©зё╨[0 |1 2 3] 4 5 6 7 
+
+
+[SENDER]йу╣╫ack:0ё╛рф╤╞╩╛╤╞╢╟©зё╨0 [|1 2 3 4] 5 6 7 
+
+
+[SENDER]╥╒кмг╟╢╟©зё╨0 [|1 2 3 4] 5 6 7 
+╥╒км╥╫╥╒км╠╗нд: NNNNNNNNNNNNNNNNNNNN
+[SENDER]╥╒км╨С╢╟©зё╨0 [1 |2 3 4] 5 6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0 [1 |2 3 4] 5 6 7 
+╥╒км╥╫╥╒км╠╗нд: OOOOOOOOOOOOOOOOOOOO
+[SENDER]╥╒км╨С╢╟©зё╨0 [1 2 |3 4] 5 6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0 [1 2 |3 4] 5 6 7 
+╥╒км╥╫╥╒км╠╗нд: PPPPPPPPPPPPPPPPPPPP
+[SENDER]╥╒км╨С╢╟©зё╨0 [1 2 3 |4] 5 6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0 [1 2 3 |4] 5 6 7 
+╥╒км╥╫╥╒км╠╗нд: QQQQQQQQQQQQQQQQQQQQ
+[SENDER]╥╒км╨С╢╟©зё╨0 [1 2 3 4] |5 6 7 
+
+[RECEIVER]х╥хо╨еackё╨1
+
+[Debug]╡╩йгфзмШ╣дйЩ╬щ╥жвИPPPPPPPPPPPPPPPPPPPP
+ллллллллллл╦J)ллллллллР][Debug]╡╩йгфзмШ╣дйЩ╬щ╥жвИQQQQQQQQQQQQQQQQQQQQ
+лллллллллллXF)ллллллллР]
+[SENDER]йу╣╫ack:1ё╛рф╤╞╩╛╤╞╢╟©зё╨0 1 [2 3 4 |5] 6 7 
+
+
+[ERROR]йу╣╫а╛пЬхЩ╦ЖхъсЮackё╛©Лкыжь╢╚:OOOOOOOOOOOOOOOOOOOO
+
+[RECEIVER]х╥хо╨еackё╨2
+
+[Debug]╡╩йгфзмШ╣дйЩ╬щ╥жвИOOOOOOOOOOOOOOOOOOOO
+ллллллллллл╗K)ллллллллР]
+[SENDER]йу╣╫ack:2ё╛рф╤╞╩╛╤╞╢╟©зё╨0 1 2 [3 4 |5 6] 7 
+
+
+[RECEIVER]х╥хо╨еackё╨3
+
+
+[SENDER]йу╣╫ack:3ё╛рф╤╞╩╛╤╞╢╟©зё╨0 1 2 3 [4 |5 6 7] 
+
+[Debug]йЩ╬щпёяИ╢МнС-╫сйу╥╫ц╩спуЩх╥╫сйу╠╗ндQQQQQQQQQQQQQQQQQQQQ
+ллллллллллл╗K)ллллллллР]
+[RECEIVER]х╥хо╨еackё╨4
+
+[Debug]╡╩йгфзмШ╣дйЩ╬щ╥жвИQQQQQQQQQQQQQQQQQQQQ
+лллллллллллЬK)ллллллллР]
+[SENDER]йу╣╫ack:4ё╛рф╤╞╩╛╤╞╢╟©зё╨0] 1 2 3 4 [|5 6 7 
+
+
+[SENDER]╥╒кмг╟╢╟©зё╨0] 1 2 3 4 [|5 6 7 
+╥╒км╥╫╥╒км╠╗нд: RRRRRRRRRRRRRRRRRRRR
+[SENDER]╥╒км╨С╢╟©зё╨0] 1 2 3 4 [5 |6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0] 1 2 3 4 [5 |6 7 
+╥╒км╥╫╥╒км╠╗нд: SSSSSSSSSSSSSSSSSSSS
+[SENDER]╥╒км╨С╢╟©зё╨0] 1 2 3 4 [5 6 |7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0] 1 2 3 4 [5 6 |7 
+╥╒км╥╫╥╒км╠╗нд: TTTTTTTTTTTTTTTTTTTT
+[SENDER]╥╒км╨С╢╟©зё╨|0] 1 2 3 4 [5 6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨|0] 1 2 3 4 [5 6 7 
+╥╒км╥╫╥╒км╠╗нд: UUUUUUUUUUUUUUUUUUUU
+[SENDER]╥╒км╨С╢╟©зё╨0] |1 2 3 4 [5 6 7 
+
+[RECEIVER]х╥хо╨еackё╨5
+
+
+[SENDER]йу╣╫ack:5ё╛рф╤╞╩╛╤╞╢╟©зё╨0 |1] 2 3 4 5 [6 7 
+
+
+[RECEIVER]х╥хо╨еackё╨6
+
+
+[SENDER]йу╣╫ack:6ё╛рф╤╞╩╛╤╞╢╟©зё╨0 |1 2] 3 4 5 6 [7 
+
+
+[RECEIVER]х╥хо╨еackё╨7
+
+
+[SENDER]йу╣╫ack:7ё╛рф╤╞╩╛╤╞╢╟©зё╨[0 |1 2 3] 4 5 6 7 
+
+
+[RECEIVER]х╥хо╨еackё╨0
+
+
+[SENDER]йу╣╫ack:0ё╛рф╤╞╩╛╤╞╢╟©зё╨0 [|1 2 3 4] 5 6 7 
+
+
+[SENDER]╥╒кмг╟╢╟©зё╨0 [|1 2 3 4] 5 6 7 
+╥╒км╥╫╥╒км╠╗нд: VVVVVVVVVVVVVVVVVVVV
+[SENDER]╥╒км╨С╢╟©зё╨0 [1 |2 3 4] 5 6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0 [1 |2 3 4] 5 6 7 
+╥╒км╥╫╥╒км╠╗нд: WWWWWWWWWWWWWWWWWWWW
+[SENDER]╥╒км╨С╢╟©зё╨0 [1 2 |3 4] 5 6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0 [1 2 |3 4] 5 6 7 
+╥╒км╥╫╥╒км╠╗нд: XXXXXXXXXXXXXXXXXXXX
+[SENDER]╥╒км╨С╢╟©зё╨0 [1 2 3 |4] 5 6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0 [1 2 3 |4] 5 6 7 
+╥╒км╥╫╥╒км╠╗нд: YYYYYYYYYYYYYYYYYYYY
+[SENDER]╥╒км╨С╢╟©зё╨0 [1 2 3 4] |5 6 7 
+
+[RECEIVER]х╥хо╨еackё╨1
+
+
+[SENDER]йу╣╫ack:1ё╛рф╤╞╩╛╤╞╢╟©зё╨0 1 [2 3 4 |5] 6 7 
+
+
+[RECEIVER]х╥хо╨еackё╨2
+
+
+[SENDER]йу╣╫ack:2ё╛рф╤╞╩╛╤╞╢╟©зё╨0 1 2 [3 4 |5 6] 7 
+
+
+[RECEIVER]х╥хо╨еackё╨3
+
+
+[SENDER]йу╣╫ack:3ё╛рф╤╞╩╛╤╞╢╟©зё╨0 1 2 3 [4 |5 6 7] 
+
+[Debug]йЩ╬щпёяИ╢МнС-╫сйу╥╫ц╩спуЩх╥╫сйу╠╗ндZYYYYYYYYYYYYYYYYYYY
+лллллллллллхI)ллллллллР]
+[RECEIVER]х╥хо╨еackё╨4
+
+
+[SENDER]йу╣╫ack:4ё╛рф╤╞╩╛╤╞╢╟©зё╨0] 1 2 3 4 [|5 6 7 
+
+
+[SENDER]╥╒кмг╟╢╟©зё╨0] 1 2 3 4 [|5 6 7 
+╥╒км╥╫╥╒км╠╗нд: ZZZZZZZZZZZZZZZZZZZZ
+[SENDER]╥╒км╨С╢╟©зё╨0] 1 2 3 4 [5 |6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0] 1 2 3 4 [5 |6 7 
+╥╒км╥╫╥╒км╠╗нд: AAAAAAAAAAAAAAAAAAAA
+[SENDER]╥╒км╨С╢╟©зё╨0] 1 2 3 4 [5 6 |7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0] 1 2 3 4 [5 6 |7 
+╥╒км╥╫╥╒км╠╗нд: BBBBBBBBBBBBBBBBBBBB
+[SENDER]╥╒км╨С╢╟©зё╨|0] 1 2 3 4 [5 6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨|0] 1 2 3 4 [5 6 7 
+╥╒км╥╫╥╒км╠╗нд: CCCCCCCCCCCCCCCCCCCC
+[SENDER]╥╒км╨С╢╟©зё╨0] |1 2 3 4 [5 6 7 
+[Debug]╡╩йгфзмШ╣дйЩ╬щ╥жвИAAAAAAAAAAAAAAAAAAAA
+ллллллллллл8H)ллллллллР][Debug]╡╩йгфзмШ╣дйЩ╬щ╥жвИCCCCCCCCCCCCCCCCCCCC
+лллллллллллхD)ллллллллР]
+[RECEIVER]х╥хо╨еackё╨5
+
+
+[ERROR]йу╣╫а╛пЬхЩ╦ЖхъсЮackё╛©Лкыжь╢╚:ZZZZZZZZZZZZZZZZZZZZ
+[Debug]╡╩йгфзмШ╣дйЩ╬щ╥жвИZZZZZZZZZZZZZZZZZZZZ
+ллллллллллл(I)ллллллллР]
+[SENDER]йу╣╫ack:5ё╛рф╤╞╩╛╤╞╢╟©зё╨0 |1] 2 3 4 5 [6 7 
+
+
+[RECEIVER]х╥хо╨еackё╨6
+
+[Debug]╡╩йгфзмШ╣дйЩ╬щ╥жвИAAAAAAAAAAAAAAAAAAAA
+ллллллллллл(I)ллллллллР]
+[SENDER]йу╣╫ack:6ё╛рф╤╞╩╛╤╞╢╟©зё╨0 |1 2] 3 4 5 6 [7 
+
+
+[RECEIVER]х╥хо╨еackё╨7
+
+[Debug]╡╩йгфзмШ╣дйЩ╬щ╥жвИBBBBBBBBBBBBBBBBBBBB
+лллллллллллXK)ллллллллР]
+[SENDER]йу╣╫ack:7ё╛рф╤╞╩╛╤╞╢╟©зё╨[0 |1 2 3] 4 5 6 7 
+
+
+[RECEIVER]х╥хо╨еackё╨0
+
+[Debug]╡╩йгфзмШ╣дйЩ╬щ╥жвИCCCCCCCCCCCCCCCCCCCC
+лллллллллллhE)ллллллллР]
+[SENDER]йу╣╫ack:0ё╛рф╤╞╩╛╤╞╢╟©зё╨0 [|1 2 3 4] 5 6 7 
+
+
+[SENDER]╥╒кмг╟╢╟©зё╨0 [|1 2 3 4] 5 6 7 
+╥╒км╥╫╥╒км╠╗нд: DDDDDDDDDDDDDDDDDDDD
+[SENDER]╥╒км╨С╢╟©зё╨0 [1 |2 3 4] 5 6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0 [1 |2 3 4] 5 6 7 
+╥╒км╥╫╥╒км╠╗нд: EEEEEEEEEEEEEEEEEEEE
+[SENDER]╥╒км╨С╢╟©зё╨0 [1 2 |3 4] 5 6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0 [1 2 |3 4] 5 6 7 
+╥╒км╥╫╥╒км╠╗нд: FFFFFFFFFFFFFFFFFFFF
+[SENDER]╥╒км╨С╢╟©зё╨0 [1 2 3 |4] 5 6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0 [1 2 3 |4] 5 6 7 
+╥╒км╥╫╥╒км╠╗нд: GGGGGGGGGGGGGGGGGGGG
+[SENDER]╥╒км╨С╢╟©зё╨0 [1 2 3 4] |5 6 7 
+
+[RECEIVER]х╥хо╨еackё╨1
+
+[Debug]йЩ╬щпёяИ╢МнС-╫сйу╥╫ц╩спуЩх╥╫сйу╠╗ндFEEEEEEEEEEEEEEEEEEE
+ллллллллллл≤G)ллллллллР]
+[SENDER]йу╣╫ack:1ё╛рф╤╞╩╛╤╞╢╟©зё╨0 1 [2 3 4 |5] 6 7 
+
+[Debug]╡╩йгфзмШ╣дйЩ╬щ╥жвИFFFFFFFFFFFFFFFFFFFF
+лллллллллллХG)ллллллллР]
+[ERROR]йу╣╫а╛пЬхЩ╦ЖхъсЮackё╛©Лкыжь╢╚:EEEEEEEEEEEEEEEEEEEE
+[Debug]╡╩йгфзмШ╣дйЩ╬щ╥жвИGGGGGGGGGGGGGGGGGGGG
+лллллллллллhJ)ллллллллР]
+[RECEIVER]х╥хо╨еackё╨2
+
+
+[SENDER]йу╣╫ack:2ё╛рф╤╞╩╛╤╞╢╟©зё╨0 1 2 [3 4 |5 6] 7 
+
+
+[RECEIVER]х╥хо╨еackё╨3
+
+
+[SENDER]йу╣╫ack:3ё╛рф╤╞╩╛╤╞╢╟©зё╨0 1 2 3 [4 |5 6 7] 
+
+
+[RECEIVER]х╥хо╨еackё╨4
+
+
+[SENDER]йу╣╫ack:4ё╛рф╤╞╩╛╤╞╢╟©зё╨0] 1 2 3 4 [|5 6 7 
+
+
+[SENDER]╥╒кмг╟╢╟©зё╨0] 1 2 3 4 [|5 6 7 
+╥╒км╥╫╥╒км╠╗нд: HHHHHHHHHHHHHHHHHHHH
+[SENDER]╥╒км╨С╢╟©зё╨0] 1 2 3 4 [5 |6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0] 1 2 3 4 [5 |6 7 
+╥╒км╥╫╥╒км╠╗нд: IIIIIIIIIIIIIIIIIIII
+[SENDER]╥╒км╨С╢╟©зё╨0] 1 2 3 4 [5 6 |7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0] 1 2 3 4 [5 6 |7 
+╥╒км╥╫╥╒км╠╗нд: JJJJJJJJJJJJJJJJJJJJ
+[SENDER]╥╒км╨С╢╟©зё╨|0] 1 2 3 4 [5 6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨|0] 1 2 3 4 [5 6 7 
+╥╒км╥╫╥╒км╠╗нд: KKKKKKKKKKKKKKKKKKKK
+[SENDER]╥╒км╨С╢╟©зё╨0] |1 2 3 4 [5 6 7 
+
+[RECEIVER]х╥хо╨еackё╨5
+
+
+[SENDER]йу╣╫ack:5ё╛рф╤╞╩╛╤╞╢╟©зё╨0 |1] 2 3 4 5 [6 7 
+
+[Debug]╡╩йгфзмШ╣дйЩ╬щ╥жвИJJJJJJJJJJJJJJJJJJJJ
+лллллллллллF)ллллллллР][Debug]╡╩йгфзмШ╣дйЩ╬щ╥жвИKKKKKKKKKKKKKKKKKKKK
+лллллллллллXF)ллллллллР]
+[ERROR]йу╣╫а╛пЬхЩ╦ЖхъсЮackё╛©Лкыжь╢╚:IIIIIIIIIIIIIIIIIIII
+
+[RECEIVER]х╥хо╨еackё╨6
+
+[Debug]╡╩йгфзмШ╣дйЩ╬щ╥жвИIIIIIIIIIIIIIIIIIIII
+лллллллллллF)ллллллллР]
+[SENDER]йу╣╫ack:6ё╛рф╤╞╩╛╤╞╢╟©зё╨0 |1 2] 3 4 5 6 [7 
+
+
+[RECEIVER]х╥хо╨еackё╨7
+
+[Debug]╡╩йгфзмШ╣дйЩ╬щ╥жвИJJJJJJJJJJJJJJJJJJJJ
+ллллллллллл╦J)ллллллллР]
+[SENDER]йу╣╫ack:7ё╛рф╤╞╩╛╤╞╢╟©зё╨[0 |1 2 3] 4 5 6 7 
+
+
+[RECEIVER]х╥хо╨еackё╨0
+
+
+[SENDER]йу╣╫ack:0ё╛рф╤╞╩╛╤╞╢╟©зё╨0 [|1 2 3 4] 5 6 7 
+
+
+[SENDER]╥╒кмг╟╢╟©зё╨0 [|1 2 3 4] 5 6 7 
+╥╒км╥╫╥╒км╠╗нд: LLLLLLLLLLLLLLLLLLLL
+[SENDER]╥╒км╨С╢╟©зё╨0 [1 |2 3 4] 5 6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0 [1 |2 3 4] 5 6 7 
+╥╒км╥╫╥╒км╠╗нд: MMMMMMMMMMMMMMMMMMMM
+[SENDER]╥╒км╨С╢╟©зё╨0 [1 2 |3 4] 5 6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0 [1 2 |3 4] 5 6 7 
+╥╒км╥╫╥╒км╠╗нд: NNNNNNNNNNNNNNNNNNNN
+[SENDER]╥╒км╨С╢╟©зё╨0 [1 2 3 |4] 5 6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0 [1 2 3 |4] 5 6 7 
+╥╒км╥╫╥╒км╠╗нд: OOOOOOOOOOOOOOOOOOOO
+[SENDER]╥╒км╨С╢╟©зё╨0 [1 2 3 4] |5 6 7 
+
+[RECEIVER]х╥хо╨еackё╨1
+
+[Debug]йЩ╬щпёяИ╢МнС-╫сйу╥╫ц╩спуЩх╥╫сйу╠╗ндNMMMMMMMMMMMMMMMMMMM
+лллллллллллХG)ллллллллР][Debug]╡╩йгфзмШ╣дйЩ╬щ╥жвИNNNNNNNNNNNNNNNNNNNN
+ллллллллллл╗F)ллллллллР]
+[SENDER]йу╣╫ack:1ё╛рф╤╞╩╛╤╞╢╟©зё╨0 1 [2 3 4 |5] 6 7 
+
+[Debug]╡╩йгфзмШ╣дйЩ╬щ╥жвИOOOOOOOOOOOOOOOOOOOO
+лллллллллллЬK)ллллллллР]
+[ERROR]йу╣╫а╛пЬхЩ╦ЖхъсЮackё╛©Лкыжь╢╚:MMMMMMMMMMMMMMMMMMMM
+
+[RECEIVER]х╥хо╨еackё╨2
+
+
+[SENDER]йу╣╫ack:2ё╛рф╤╞╩╛╤╞╢╟©зё╨0 1 2 [3 4 |5 6] 7 
+
+
+[RECEIVER]х╥хо╨еackё╨3
+
+[Debug]╡╩йгфзмШ╣дйЩ╬щ╥жвИNNNNNNNNNNNNNNNNNNNN
+лллллллллллXK)ллллллллР][Debug]╡╩йгфзмШ╣дйЩ╬щ╥жвИNNNNNNNNNNNNNNNNNNNN
+лллллллллллE)ллллллллР][Debug]╡╩йгфзмШ╣дйЩ╬щ╥жвИNNNNNNNNNNNNNNNNNNNN
+лллллллллллHG)ллллллллР]
+[SENDER]йу╣╫ack:3ё╛рф╤╞╩╛╤╞╢╟©зё╨0 1 2 3 [4 |5 6 7] 
+
+
+[RECEIVER]х╥хо╨еackё╨4
+
+
+[SENDER]йу╣╫ack:4ё╛рф╤╞╩╛╤╞╢╟©зё╨0] 1 2 3 4 [|5 6 7 
+
+
+[SENDER]╥╒кмг╟╢╟©зё╨0] 1 2 3 4 [|5 6 7 
+╥╒км╥╫╥╒км╠╗нд: PPPPPPPPPPPPPPPPPPPP
+[SENDER]╥╒км╨С╢╟©зё╨0] 1 2 3 4 [5 |6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0] 1 2 3 4 [5 |6 7 
+╥╒км╥╫╥╒км╠╗нд: QQQQQQQQQQQQQQQQQQQQ
+[SENDER]╥╒км╨С╢╟©зё╨0] 1 2 3 4 [5 6 |7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0] 1 2 3 4 [5 6 |7 
+╥╒км╥╫╥╒км╠╗нд: RRRRRRRRRRRRRRRRRRRR
+[SENDER]╥╒км╨С╢╟©зё╨|0] 1 2 3 4 [5 6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨|0] 1 2 3 4 [5 6 7 
+╥╒км╥╫╥╒км╠╗нд: SSSSSSSSSSSSSSSSSSSS
+[SENDER]╥╒км╨С╢╟©зё╨0] |1 2 3 4 [5 6 7 
+[Debug]йЩ╬щпёяИ╢МнС-╫сйу╥╫ц╩спуЩх╥╫сйу╠╗ндQPPPPPPPPPPPPPPPPPPP
+ллллллллллл╦E)ллллллллР][Debug]╡╩йгфзмШ╣дйЩ╬щ╥жвИQQQQQQQQQQQQQQQQQQQQ
+лллллллллллхI)ллллллллР][Debug]╡╩йгфзмШ╣дйЩ╬щ╥жвИRRRRRRRRRRRRRRRRRRRR
+лллллллллллJ)ллллллллР][Debug]╡╩йгфзмШ╣дйЩ╬щ╥жвИSSSSSSSSSSSSSSSSSSSS
+лллллллллллxI)ллллллллР]
+[RECEIVER]х╥хо╨еackё╨5
+
+
+[ERROR]йу╣╫а╛пЬхЩ╦ЖхъсЮackё╛©Лкыжь╢╚:PPPPPPPPPPPPPPPPPPPP
+
+[SENDER]йу╣╫ack:5ё╛рф╤╞╩╛╤╞╢╟©зё╨0 |1] 2 3 4 5 [6 7 
+
+[Debug]╡╩йгфзмШ╣дйЩ╬щ╥жвИPPPPPPPPPPPPPPPPPPPP
+ллллллллллл┬H)ллллллллР]
+[RECEIVER]х╥хо╨еackё╨6
+
+
+[SENDER]йу╣╫ack:6ё╛рф╤╞╩╛╤╞╢╟©зё╨0 |1 2] 3 4 5 6 [7 
+
+
+[RECEIVER]х╥хо╨еackё╨7
+
+
+[SENDER]йу╣╫ack:7ё╛рф╤╞╩╛╤╞╢╟©зё╨[0 |1 2 3] 4 5 6 7 
+
+
+[RECEIVER]х╥хо╨еackё╨0
+
+[Debug]╡╩йгфзмШ╣дйЩ╬щ╥жвИSSSSSSSSSSSSSSSSSSSS
+лллллллллллХG)ллллллллР]
+[SENDER]йу╣╫ack:0ё╛рф╤╞╩╛╤╞╢╟©зё╨0 [|1 2 3 4] 5 6 7 
+
+
+[SENDER]╥╒кмг╟╢╟©зё╨0 [|1 2 3 4] 5 6 7 
+╥╒км╥╫╥╒км╠╗нд: TTTTTTTTTTTTTTTTTTTT
+[SENDER]╥╒км╨С╢╟©зё╨0 [1 |2 3 4] 5 6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0 [1 |2 3 4] 5 6 7 
+╥╒км╥╫╥╒км╠╗нд: UUUUUUUUUUUUUUUUUUUU
+[SENDER]╥╒км╨С╢╟©зё╨0 [1 2 |3 4] 5 6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0 [1 2 |3 4] 5 6 7 
+╥╒км╥╫╥╒км╠╗нд: VVVVVVVVVVVVVVVVVVVV
+[SENDER]╥╒км╨С╢╟©зё╨0 [1 2 3 |4] 5 6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0 [1 2 3 |4] 5 6 7 
+╥╒км╥╫╥╒км╠╗нд: WWWWWWWWWWWWWWWWWWWW
+[SENDER]╥╒км╨С╢╟©зё╨0 [1 2 3 4] |5 6 7 
+
+[RECEIVER]х╥хо╨еackё╨1
+
+
+[RECEIVER]х╥хо╨еackё╨2
+
+
+[RECEIVER]х╥хо╨еackё╨3
+
+
+[SENDER]йу╣╫ack:1ё╛рф╤╞╩╛╤╞╢╟©зё╨0 1 [2 3 4 |5] 6 7 
+
+[Debug]йЩ╬щпёяИ╢МнС-╫сйу╥╫ц╩спуЩх╥╫сйу╠╗ндXWWWWWWWWWWWWWWWWWWW
+лллллллллллHG)ллллллллР]
+[SENDER]йу╣╫ack:2ё╛рф╤╞╩╛╤╞╢╟©зё╨0 1 2 [3 4 |5 6] 7 
+
+
+[SENDER]йу╣╫ack:3ё╛рф╤╞╩╛╤╞╢╟©зё╨0 1 2 3 [4 |5 6 7] 
+
+
+[RECEIVER]х╥хо╨еackё╨4
+
+
+[SENDER]йу╣╫ack:4ё╛рф╤╞╩╛╤╞╢╟©зё╨0] 1 2 3 4 [|5 6 7 
+
+
+[SENDER]╥╒кмг╟╢╟©зё╨0] 1 2 3 4 [|5 6 7 
+╥╒км╥╫╥╒км╠╗нд: XXXXXXXXXXXXXXXXXXXX
+[SENDER]╥╒км╨С╢╟©зё╨0] 1 2 3 4 [5 |6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0] 1 2 3 4 [5 |6 7 
+╥╒км╥╫╥╒км╠╗нд: YYYYYYYYYYYYYYYYYYYY
+[SENDER]╥╒км╨С╢╟©зё╨0] 1 2 3 4 [5 6 |7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨0] 1 2 3 4 [5 6 |7 
+╥╒км╥╫╥╒км╠╗нд: ZZZZZZZZZZZZZZZZZZZZ
+[SENDER]╥╒км╨С╢╟©зё╨|0] 1 2 3 4 [5 6 7 
+
+[SENDER]╥╒кмг╟╢╟©зё╨|0] 1 2 3 4 [5 6 7 
+╥╒км╥╫╥╒км╠╗нд: EOF[SENDER]╥╒км╨С╢╟©зё╨0] |1 2 3 4 [5 6 7 
+[Debug]╡╩йгфзмШ╣дйЩ╬щ╥жвИYYYYYYYYYYYYYYYYYYYY
+лллллллллллK)ллллллллР][Debug]╡╩йгфзмШ╣дйЩ╬щ╥жвИZZZZZZZZZZZZZZZZZZZZ
+лллллллллллE)ллллллллР][Debug]йЩ╬щпёяИ╢МнС-╫сйу╥╫ц╩спуЩх╥╫сйу╠╗ндFOF
+[ERROR]йу╣╫а╛пЬхЩ╦ЖхъсЮackё╛©Лкыжь╢╚:XXXXXXXXXXXXXXXXXXXX
+
+[RECEIVER]х╥хо╨еackё╨5
+
+[Debug]╡╩йгфзмШ╣дйЩ╬щ╥жвИXXXXXXXXXXXXXXXXXXXX
+ллллллллллл8H)ллллллллР]
+[SENDER]йу╣╫ack:5ё╛рф╤╞╩╛╤╞╢╟©зё╨0 |1] 2 3 4 5 [6 7 
+
+[Debug]╡╩йгфзмШ╣дйЩ╬щ╥жвИXXXXXXXXXXXXXXXXXXXX
+ллллллллллл┬H)ллллллллР]
+[RECEIVER]х╥хо╨еackё╨6
+
+
+[SENDER]йу╣╫ack:6ё╛рф╤╞╩╛╤╞╢╟©зё╨0 |1 2] 3 4 5 6 [7 
+
+[Debug]йЩ╬щпёяИ╢МнС-╫сйу╥╫ц╩спуЩх╥╫сйу╠╗ндZZZZZZZZZZZZZZZZZZZZ
+ллллллллллл≤G)ллллллллР]
+[RECEIVER]х╥хо╨еackё╨7
+
+
+[SENDER]йу╣╫ack:7ё╛рф╤╞╩╛╤╞╢╟©зё╨[0 |1 2 3] 4 5 6 7 
+
+[Debug]йЩ╬щпёяИ╢МнС-╫сйу╥╫ц╩спуЩх╥╫сйу╠╗ндFOF
+[RECEIVER]х╥хо╨еackё╨0
+
+
+[SENDER]йу╣╫ack:0ё╛рф╤╞╩╛╤╞╢╟©зё╨0 [|1 2 3 4] 5 6 7 
+

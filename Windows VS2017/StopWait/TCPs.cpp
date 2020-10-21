@@ -26,7 +26,9 @@ bool TCPsenders::send(const Message& message)
 	}
 	else
 	{
+		
 		std::cout << "\n[SENDER]发送前窗口：";
+		fprintf(fp, "\n[SENDER]发送前窗口：");
 		printSlideWindow();
 		this->packetWaitingAck[nextseqnum].acknum = -1;                  //忽略该字段
 		this->packetWaitingAck[nextseqnum].seqnum = this->nextseqnum;
@@ -34,12 +36,14 @@ bool TCPsenders::send(const Message& message)
 		memcpy(this->packetWaitingAck[nextseqnum].payload, message.data, sizeof(message.data));
 		this->packetWaitingAck[nextseqnum].checksum = pUtils->calculateCheckSum(this->packetWaitingAck[nextseqnum]);
 		pUtils->printPacket("发送方发送报文", this->packetWaitingAck[nextseqnum]);
+		fprintf(fp, "发送方发送报文: %s", this->packetWaitingAck[nextseqnum].payload);
 		pns->sendToNetworkLayer(RECEIVER, this->packetWaitingAck[nextseqnum]);	//调用模拟网络环境的sendToNetworkLayer，通过网络层发送到对方
 		if (base == nextseqnum)
 			pns->startTimer(SENDER, Configuration::TIME_OUT, this->nextseqnum);			//启动发送方定时器
 		this->nextseqnum = (this->nextseqnum + 1) % SEQUN;
 
 		std::cout << "[SENDER]发送后窗口：";
+		fprintf(fp, "[SENDER]发送后窗口：");
 		printSlideWindow();
 		cout << endl;
 
@@ -67,8 +71,10 @@ void TCPsenders::receive(const Packet& ackPkt) {
 			}
 			this->acksacc = 0;
 			cout << "\n[SENDER]收到ack:" << ackPkt.acknum << "，移动滑动窗口：";
+			fprintf(fp, "\n[SENDER]收到ack:%d，移动滑动窗口：", ackPkt.acknum);
 			printSlideWindow();
 			cout << endl;
+			fprintf(fp, "\n");
 		}
 		else
 		{      //接受到冗余的ack
@@ -77,6 +83,7 @@ void TCPsenders::receive(const Packet& ackPkt) {
 			{
 				std::cout << "\n[ERROR]收到连续三个冗余ack，快速重传\n";
 				pUtils->printPacket("快速重传", this->packetWaitingAck[base]);
+				fprintf(fp, "\n[ERROR]收到连续三个冗余ack，快速重传:%s", this->packetWaitingAck[base].payload);
 				pns->sendToNetworkLayer(RECEIVER, this->packetWaitingAck[base]);
 				
 			}
@@ -98,14 +105,24 @@ void TCPsenders::printSlideWindow()
 	int i;
 	for (i = 0; i < SEQUN; i++)
 	{
-		if (i == this->base)
+		if (i == this->base) {
 			std::cout << "[";
-		if (i == this->nextseqnum)
+			fprintf(fp, "[");
+		}
+			
+		if (i == this->nextseqnum) {
 			std::cout << "|";
+			fprintf(fp, "|");
+		}
 		std::cout << i;
-		if (i == (base + WIDEN - 1) % SEQUN)
+		fprintf(fp, "%d", i);
+		if (i == (base + WIDEN - 1) % SEQUN) {
 			std::cout << "]";
+			fprintf(fp, "]");
+		}
+		fprintf(fp, " ");
 		std::cout << " ";
 	}
 	std::cout << std::endl;
+	fprintf(fp, "\n");
 }

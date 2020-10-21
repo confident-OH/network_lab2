@@ -28,6 +28,7 @@ bool GBNsenders::send(const Message& message) {
 	{
 		//在窗口中设置ACKS
 		std::cout << "\n[SENDER]发送前窗口：";
+		fprintf(fp, "\n[SENDER]发送前窗口：");
 		printSlideWindow();
 		this->waitingState = true;
 		this->packetWaitingAck[nextseqnum].acknum = -1; //忽略该字段
@@ -36,13 +37,16 @@ bool GBNsenders::send(const Message& message) {
 		memcpy(this->packetWaitingAck[nextseqnum].payload, message.data, sizeof(message.data));
 		this->packetWaitingAck[nextseqnum].checksum = pUtils->calculateCheckSum(this->packetWaitingAck[nextseqnum]);
 		pUtils->printPacket("发送方发送报文", this->packetWaitingAck[nextseqnum]);
+		fprintf(fp, "发送方发送报文:%s", this->packetWaitingAck[nextseqnum].payload);
 		pns->sendToNetworkLayer(RECEIVER, this->packetWaitingAck[nextseqnum]);	//调用模拟网络环境的sendToNetworkLayer，通过网络层发送到对方
 		if(base == nextseqnum)
 			pns->startTimer(SENDER, Configuration::TIME_OUT, this->packetWaitingAck[nextseqnum].seqnum);			//启动发送方定时器
 		this->nextseqnum = (this->nextseqnum + 1) % SEQUN;
 		std::cout << "[SENDER]发送后窗口：";
+		fprintf(fp, "[SENDER]发送后窗口：");
 		printSlideWindow();
 		cout << endl;
+		fprintf(fp, "\n");
 		return true;
     }
 }
@@ -66,8 +70,10 @@ void GBNsenders::receive(const Packet& ackPkt) {
 			pns->startTimer(SENDER, Configuration::TIME_OUT, 0);
 		}
 		std::cout << "\n[SENDER]收到ack:" << ackPkt.acknum << "，移动滑动窗口：";
+		fprintf(fp, "\n[SENDER]收到ack:%d，移动滑动窗口：", ackPkt.acknum);
 		printSlideWindow();
 		std::cout << endl;
+		fprintf(fp, "\n");
 	}
 }
 
@@ -95,14 +101,24 @@ void GBNsenders::printSlideWindow()
 	int i;
 	for (i = 0; i < SEQUN; i++)
 	{
-		if (i == this->base)
+		if (i == this->base) {
 			std::cout << "[";
-		if (i == this->nextseqnum)
+			fprintf(fp, "[");
+		}
+
+		if (i == this->nextseqnum) {
 			std::cout << "|";
+			fprintf(fp, "|");
+		}
 		std::cout << i;
-		if (i == (base + WIDEN - 1) % SEQUN)
+		fprintf(fp, "%d", i);
+		if (i == (base + WIDEN - 1) % SEQUN) {
 			std::cout << "]";
+			fprintf(fp, "]");
+		}
+		fprintf(fp, " ");
 		std::cout << " ";
 	}
 	std::cout << std::endl;
+	fprintf(fp, "\n");
 }

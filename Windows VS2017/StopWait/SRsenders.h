@@ -2,7 +2,7 @@
 #define SEQUN 0x8
 #define WIDEN 4
 #include "RdtSender.h"
-
+extern FILE* fp;
 class SRsenders
     :public RdtSender
 {

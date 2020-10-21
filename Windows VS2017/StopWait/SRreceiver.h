@@ -2,6 +2,7 @@
 #define SEQUN 0x8
 #define WIDEN 4 
 #include "RdtReceiver.h"
+extern FILE* fp;
 
 class SRreceiver
     :public RdtReceiver
